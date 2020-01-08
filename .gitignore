@@ -2,3 +2,5 @@
 Fire*.cpp
 .vscode/
 .idea/
+*.iml
+/cmake-build-debug/

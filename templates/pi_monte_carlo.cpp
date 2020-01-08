@@ -50,7 +50,7 @@ public:
 
 
 
-main() {
+int main() {
 
 	PI pi;
 	pi.monte_carlo();

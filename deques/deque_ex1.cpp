@@ -13,7 +13,7 @@ void show(const char* msg, deque<T> q)
 }
 
 
-main()
+int main()
 {
     deque<int> dq(10);
     for(unsigned i=0; i<dq.size(); ++i)     dq[i] = i*i;

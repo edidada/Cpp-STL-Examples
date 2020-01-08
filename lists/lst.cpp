@@ -5,8 +5,7 @@
 
 using namespace std;
 
-template<class T>
-class LIST {
+template<class T> class LIST {
   template<typename TT>
   friend ostream& operator<<( ostream& , LIST<TT>& );
 private:
@@ -37,7 +36,7 @@ ostream& operator<<( ostream& out, LIST<TT> &listRef ) {
   return out;
 }
 
-main() {
+int main() {
 
   LIST<int> LI(21);
   LI.push();
