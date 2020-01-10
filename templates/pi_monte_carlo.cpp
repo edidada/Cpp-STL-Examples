@@ -54,5 +54,5 @@ int main() {
 
 	PI pi;
 	pi.monte_carlo();
-
+    return 0;
 }

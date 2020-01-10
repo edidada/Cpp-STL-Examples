@@ -2,7 +2,7 @@
 
 using std::cin;
 
-main() {
+int main() {
   int a, b;
   cin >>  a >>  b;
 
@@ -11,4 +11,5 @@ main() {
 
   GCD<int> Obj2(a, b);
   Obj2.gcd_rec();
+    return 0;
 }
