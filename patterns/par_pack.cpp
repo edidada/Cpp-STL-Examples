@@ -11,6 +11,7 @@ void variadic_printer( ostream &os, T arg, Args... args ) {
   print( os, args... );
 }
 
-main() {
+int main() {
   variadic_printer( cout, "diman77", "Dimos");
+  return 0;
 }
